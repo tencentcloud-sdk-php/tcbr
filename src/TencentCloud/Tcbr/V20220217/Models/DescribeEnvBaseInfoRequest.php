@@ -20,18 +20,18 @@ use TencentCloud\Common\AbstractModel;
 /**
  * DescribeEnvBaseInfo请求参数结构体
  *
- * @method string getEnvId() 获取环境 Id
- * @method void setEnvId(string $EnvId) 设置环境 Id
+ * @method string getEnvId() 获取<p>环境 Id</p>
+ * @method void setEnvId(string $EnvId) 设置<p>环境 Id</p>
  */
 class DescribeEnvBaseInfoRequest extends AbstractModel
 {
     /**
-     * @var string 环境 Id
+     * @var string <p>环境 Id</p>
      */
     public $EnvId;
 
     /**
-     * @param string $EnvId 环境 Id
+     * @param string $EnvId <p>环境 Id</p>
      */
     function __construct()
     {
